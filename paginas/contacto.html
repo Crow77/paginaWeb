@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Selectores</title>
+<link href="../estilo.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+
+@media print{
+    *{
+        display:none;
+    }
+}
+</style>
+
+</head>
+
+<body id="cuerpo">
+<div id="banner"><img src="../images/logo.jpg" alt="CSS: The Missing Manual">
+<h1>Artecuentro</h1>
+</div>
+<div id="principal2">
+<ul id="nav">
+<li><a href="../index.html" class="linkInicio">Inicio</a></li>
+<li><a href="#" class="linkNosotros">Quiénes somos</a></li>
+<li><a href="../tabla.html">Tabla</a></li>
+</ul>
+</div>
+
+ <div id="cuerpo">
+    <br><br><br>
+    
+    <form id="subForm" name="subForm" method="get" action="">
+    <p><label for="nombre" class="etiq">Nombre </label>
+      <input type="text" name="name" id="nombre" /></p>
+	  <p><label for="direccion" class="etiq">Direcci&oacute;n correo-e </label>
+      <input type="text" name="email" id="email" /></p><br>
+		<p><span class="etiq">Tipo cliente</span>
+	    <label>
+        <input name="nivel" type="radio" value="novice" />
+        Diseñador</label>
+	    <label>
+	    <input name="nivel" type="radio" value="intermediate" />
+	    Empresa</label>
+	    
+	  </p><br>
+	  <p>
+	    <label for="referencias" class="etiq">&iquest;C&oacute;mo nos has conocido?  </label>
+	    <select name="refer" id="refer">
+	      <option value="null">Selecciona una opcion</option>
+	      <option value="1">Amigos</option>
+	      <option value="2">Internet</option>
+	      <option value="3">Prensa</option>
+	      <option value="4">Otros</option>
+        </select>
+	  </p><br>
+	  <p>
+	    <label for="comentarios" class="etiq">Comentarios adicionales </label>
+        <textarea name="comments" cols="35" rows="4" id="comentarios"></textarea>
+	  </p>
+	  <p>
+	    <input type="submit" name="Submit" id="suscribe" value="Suscr&iacute;bete !" />
+	  </p>
+    </form>
+	<br class="clear" />
+  </div>
+
+</body>
+</html>

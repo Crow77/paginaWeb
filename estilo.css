@@ -1,0 +1,112 @@
+/* CSS Document */
+
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+/*Fin del reset CSS*/
+
+
+	p{
+		color: #666;
+		font-size: 1em;
+		font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+		text-align: justify;
+		margin-left: 10px;
+	}
+
+	#cuerpo{
+		background-color: #FF9;
+		background-image:url(decoracion/fondo.jpg);
+		background-repeat: repeat-y;
+		background-position: center top;
+		width: 760px;
+		margin: 0 auto;
+		
+		font-family: Baskerville, "Paletino Linotype", Times, serif;
+		/*border-top: 2px solid #093;
+		padding-left: 100px;*/
+	}
+	h1+p{
+		color: #080808;
+		font-size: 1.2em;
+		line-height: 140%;
+		margin-top: 20px;
+	}
+	
+	
+	/**********************************************************************/
+	
+	#principal2 {
+	background: url(decoracion/bg_nav.png) repeat-x center bottom; 
+  border-top: 1px solid #FFF;
+	border-bottom: 1px solid #FFF; 
+}
+#nav li {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#nav {
+	margin: 0px auto;
+	width: 900px;
+	overflow: hidden; /*if auto causes weird rendering in FF when button clicked */
+}
+#nav a {
+	display: block;
+	float: left;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+	font: bold 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding: 5px 25px;
+	background-image: url(decoracion/bg_nav.png);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	border-style: none;
+}
+#nav a:hover {
+	background-position: center top;
+  color: #325C38;
+}
+/****************************PAGINA CONTACTO******************************/
+#subForm{
+		font-size: 1em;
+	}
+	#subForm .etiq{
+		float: left;
+		width: 230px;
+		text-align: right;
+		margin-right: 10px;
+		font-weight: bold;
+	}
+	#suscribe{
+		margin-left: 250px;
+		background-color: #CBD893;
+		font-family: "Century Gothic", Grill, Arial, Helvetica, sans-serif;
+	}
+	#nombre, #email, #comentarios{
+		background-color: #FBEF99;
+		font-family: "Lucida Console", monaco, monospace;
+		font-size: .9em;
+		width: 300px;
+		margin-top: -3px;
+	}
+	#nombre:focus, #email:focus, #comentarios:focus, #refer:focus{
+		background-color: #FDD041;
+	}
+#banner h1 {
+	font: normal 48px Georgia, "Times New Roman", Times, serif;
+	text-align: right;
+    color: #272D32;
+}
+

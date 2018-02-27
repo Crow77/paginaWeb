@@ -1,0 +1,11 @@
+commit 1cf88bc24538e694c0ff5619b76b92bd258b0be9
+Author: Crow <el-estraus@hotmail.com>
+Date:   Tue Feb 27 15:25:54 2018 +0100
+
+    Agregamos el enlace Git al index
+
+commit b2a0dd177b8be1d2271b2d7330b1b272c80e4bca
+Author: Crow <el-estraus@hotmail.com>
+Date:   Tue Feb 27 15:20:39 2018 +0100
+
+    Iniciamos p4
